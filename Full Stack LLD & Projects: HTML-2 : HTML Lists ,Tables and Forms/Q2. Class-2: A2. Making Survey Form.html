@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <form>
+        <label for="name">Name: </label>
+        <input id="name" type="text" name="name" required />
+
+        <label for="age">Age: </label>
+        <input id="age" type="number" name="age" required />
+
+        <label for="gender">Gender: </label>
+        <input id="male" type="radio" name="gender"  value="male" required/>
+        <label for="male"> Male </label>
+        <input id="female" type="radio" name="gender" value="female" />
+        <label for="female"> Female </label>
+
+        <label for="food">Favorite Food: </label>
+        <select id="food" name="food" required>
+            <option value="pizza">Pizza</option>
+            <option value="chinese">Chinese food</option>
+            <option value="indian">Indian food</option>
+            <option value="mexican">Mexican food</option>
+        </select>
+
+        <label for="cook" > Do you like to cook?</label>
+        <input id="cook" type="checkbox" name="cook" value="cook"/>
+        <label for="cook"> Yes </label>
+
+        <label for="comments">Additional comments: </label>
+        <textarea id="comments" name="comments"></textarea>
+        <input type="submit" value="Submit" />
+        
+        </form>
+    </body>
+</html>
